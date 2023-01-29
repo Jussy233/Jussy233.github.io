@@ -1,0 +1,154 @@
+body {
+    font-family: Open Sans;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.3px;
+    /* margin-left: 100px; */
+    /* background-image: url("https://picsum.photos/seed/picsum/200/300"); */
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+h3 {
+    color:blueviolet;
+    font-size: 34px;
+    font-weight: 900;
+    margin: 0;
+}
+
+h1 {
+    color: #496bd8;
+}
+
+p {
+    color:green;
+    font-weight: bold;
+    margin: 0;
+    /* text-indent: 50px; */
+}
+
+.sup_element {
+    color:black;
+}
+
+.sup_element1 {
+    color: #20d0ff;
+}
+
+table {
+    /* text-align: center; */
+    line-height: 200%;
+    width: 300px;
+    height: 200px;
+    border-top: 5px solid #ff66ce;
+    color: #496bd8;
+    font-weight: bold;
+    /* border: 1px solid black;
+    border-collapse: collapse; */
+}
+
+table th {
+    text-align: left;
+    color: bisque;
+}
+
+footer strong {
+    text-decoration: underline wavy #ff65ff;
+    color:blueviolet;
+}
+
+mark {
+    border-radius: 20px;
+}
+
+div#main-content {
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* border-style: groove; */
+    display: flex;
+    background-image: linear-gradient(10deg, #fff7f6, #cacaca);
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: nowrap; */
+    /* justify-content: center; */
+
+}
+
+a:hover {
+    color:#ff66ce;
+}
+
+a {
+    color: #20d0ff;
+}
+
+div-a:hover {
+    color:#3cbe9c;
+}
+
+table tr:first-child {
+    color:burlywood;
+}
+
+article {
+    margin-bottom: 80px;
+}
+
+#articles {
+    flex-grow: 1;
+}
+
+#skills {
+    flex-grow: 1;
+    /* align-self: center; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    /* background-color: #fff7f6; */
+    background-image: linear-gradient(45deg, #ebf9ff, #fff7f6);
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: #20d0ff;
+    color: #2a3655;
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div#main-content, header {
+        flex-direction: column;
+    }
+}
+
+
+
+/* span {
+    display: block;
+} */
+
+/* footer p {  potomek
+    color:violet;
+} */
+
+/* footer > div > p {  dziecko
+    color:violet;
+} */

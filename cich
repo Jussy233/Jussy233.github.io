@@ -1,0 +1,35 @@
+<script>
+<!--
+/*
+Random link button- By JavaScript Kit (http://javascriptkit.com)
+Over 300+ free scripts!
+This credit MUST stay intact for use
+*/
+
+//specify random links below. You can have as many as you want
+var randomlinks=new Array()
+
+randomlinks[0]="https://cichodaje.pl/go/kontakt12pl/"
+randomlinks[1]="https://cichodaje.pl/go/kontakt11pl/"
+randomlinks[2]="https://cichodaje.pl/go/kontakt10pl/"
+randomlinks[3]="https://cichodaje.pl/go/kontakt9pl/"
+randomlinks[4]="https://cichodaje.pl/go/kontakt8pl/"
+randomlinks[5]="https://cichodaje.pl/go/kontakt7pl/"
+randomlinks[6]="https://cichodaje.pl/go/kontakt6pl/"
+randomlinks[7]="https://cichodaje.pl/go/kontakt5pl/"
+randomlinks[8]="https://cichodaje.pl/go/kontakt4pl/"
+randomlinks[9]="https://cichodaje.pl/go/kontakt3pl/"
+randomlinks[10]="https://cichodaje.pl/go/kontakt2pl/"
+randomlinks[11]="https://cichodaje.pl/go/kontakt1pl/"
+
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+//-->
+</script>
+<form method="post">
+<p><input type="button" name="B1" value=" >> KONTAKT  DO PROFILU <<" onclick="randomlink()"></p> </form>
+
+<!--Uncomment below to use a regular text link instead
+<a href="javascript:randomlink()">Kontakt</a>
+-->

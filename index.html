@@ -5,70 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first website!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans">
     <link rel="stylesheet" href="styles.css">
+    <!-- <style>
+        h3 {
+            color:yellowgreen;
+        }
+    </style> -->
 </head>
 <body>
 
     <header>
-        <h1>Welcome to&nbsp;my&nbsp;first&nbsp;website!</h1>
+        <h1>Welcome to my first website!</h1>
     <a href="contact.html">Contact me</a>
     <!--<a href="https://www.google.com">Find in Google</a> -->
     <br>
     </header>
+
+    <div id="main-content">
+
+        <section id="articles">
+            <article>
+                <h3 style="color: blue;">This is my first blog post</h3>
+                <p>This is the content of my first blog post</p>
+            </article>
+        
+            <article>
+                <h3>This is my second blog post</h3>
+                <p>This is the content of my second blog &lt;something&gt; post</p>
+            </article>
+        
+            <article>
+                <h3>This is my third blog post</h3>
+                <p>This is the <mark>content</mark> of my third blog post. <br> Continue the content after <i>beaking line</i>. <sup class="sup_element">*</sup></p>
+                <small><sup class="sup_element">*</sup>Another sentence</small>
+            </article>
+        </section>
     
-    <article>
-        <h3>This is my first blog post</h3>
-        <p>This is the content of my first blog post</p>
-        <br>
-    </article>
+    <div-a id="skills"> <!-- div is the block element--> <!-- ul to lista nieuporządkowana a ol to uporządkowana -->
 
-    <article>
-        <h3>This is my second blog post</h3>
-        <p>This is the content of my second blog &lt;something&gt; post</p>
-        <br> <!--this tag is used for new line-->
-    </article>
-
-    <article>
-        <h3>This is my third blog post</h3>
-        <p>This is the <mark>content</mark> of my third blog post. <br> Continue the content after <i>beaking line</i>. <sup class="sup_element" style="color:red">*</sup></p>
-        <small><sup class="sup_element">*</sup>Another sentence</small>
-    </article>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    <div> <!-- div is the block element-->
-        My skills
-        <ul> <!-- ul to lista nieuporządkowana a ol to uporządkowana -->
-            <li>I know HTML :)</li>
-            <li>I do not know CSS yet :(</li>
-        </ul>
-
-        <table border="1">
+        <b style="font-size: 34px; font-weight: 900;">My skills</b>
+        <table>
             <tr>
-                <th>Technology</th>
+                <th >Technology</th>
                 <th>Level</th>
             </tr>
             <tr>
-                <td>HTML</td>
+                <td class="sup_element1">HTML</td>
                 <td>4</td>
             </tr>
             <tr>
                 <td>CSS</td>
-                <td>0 :(</td>
+                <td>good ;)</td>
             </tr>
         </table>
 
-    </div>
+    </div-a>
 
-    <br>
-    <br>
-    <br>
+</div>
 
     <footer>
-        <div>Footer area. &copy; <strong>Me</strong> & <b>My Tutor</b></div>
+        <div>Footer area. &copy; <strong>Me</strong> & <b>My Tutor</b>
+        </div>
     </footer>
 
 
